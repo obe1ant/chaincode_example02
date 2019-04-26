@@ -1,6 +1,6 @@
 # chaincode_example02
 ## A simple chaincode example from hyperledger fabric project
-
+https://github.com/hyperledger/fabric-samples.git
 
 
 
