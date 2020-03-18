@@ -45,7 +45,7 @@ func (t *SimpleChaincode) Init(stub shim.ChaincodeStubInterface) pb.Response {
 		return shim.Error("Incorrect number of arguments. Expecting 4")
 	}
 
-	// Initialize the chaincode
+	// Initialize the chaincode with entities A and B
 	A = args[0]
 	Aval, err = strconv.Atoi(args[1])
 	if err != nil {
